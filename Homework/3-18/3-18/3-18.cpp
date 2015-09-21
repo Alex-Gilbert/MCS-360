@@ -11,8 +11,6 @@ void printArray(string name, int* array, int size)
 		<< array[i] << endl;
 }
 
-// A preprocessor macro to simplify the printing
-// of all the data in main():
 void printAll(int* A, int* B, char C, int* D) 
 {
 	printArray("A", A, 3); \
